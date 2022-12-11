@@ -12,8 +12,11 @@ body{
     margin-right: auto;
   }
   
-tr:nth-child(even) {
+ tr:nth-child(even) {
   background-color: #daea8b;}
   tr:nth-child(odd) {
     background-color: #80f2ec;}
+    th, td {
+      font-size: 25px;
+    }
   
