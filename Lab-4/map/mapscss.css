@@ -1,0 +1,24 @@
+
+
+img{
+	position: relative;
+}
+p {
+	text-shadow: darkgray;
+	color: #667733;
+	font-size: 20px;
+}
+
+.c1 p {
+	color: #ffffff;
+	text-shadow: black;
+	font-size: 30px;
+}
+
+
+.spcls ul {
+	display: inline-block;
+}
+
+
+
