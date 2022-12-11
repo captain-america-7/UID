@@ -80,6 +80,10 @@ body {
     margin-right: auto;
     width: 150mm
           }
+ video {
+  display: block;
+  margin: auto;
+}
            
            
         
