@@ -1,0 +1,114 @@
+<html>
+ <head>
+  <title>Registration Form</title>   
+    <style>
+     body{background-color: #f6e24c;}
+     .parent{text-align: center;}
+     .child {display: inline-block;}
+    </style>       
+    </head>
+    <body>
+        <h1 style="text-align: center;">Amrita Cyber Nation</h1>
+        <h2 style="color:rgb(6, 6, 240);">Please submit the form below to complete your registration</h2>
+        <form method="POST">
+            &nbsp;&nbsp;
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            &nbsp;&nbsp;
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            &nbsp;&nbsp;
+            <label for="city">City: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="city" name="city"><br><br>
+            &nbsp;&nbsp;
+            <label for="pincode">Pincode:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="pincode" name="pincode"><br><br>
+            &nbsp;&nbsp;
+            <label for="address">Address:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="address" name="address"><br><br>  &nbsp;&nbsp;
+            Phone No:&nbsp; 
+            <input type="text" pattern="[0-9]{10}" required />  
+            <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="email" name="email"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+            Gender :  <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="male" name="Gender" value="Male">
+            <label for="Male">Male</label><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="female" name="Gender" value="Female">
+            <label for="Female">Female</label><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="other" name="Gender" value="Other">
+            <label for="other">Other</label> 
+            <br><br>
+            &nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="Country" id="Country">
+                <option Value="none" selected disabled hidden>Select a Country</option>
+                <option Value="Ind">INDIA</option>
+                <option Value="Usa">USA</option>
+                <option Value="Swiz">Swizterland</option>
+                <option Value="Can">Canada</option>
+            </select><br><br>&nbsp;&nbsp;           
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea rows:"10" Cols:"60" name:"text" id="text" placeholder="Give your comments..." style="width: 200px; height: 50px;"></textarea>   <br>  &nbsp;&nbsp;
+                Select Event:-
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="Event" id="cyberconclave">
+                <label for="cyberconclave">Cyber Conclave '22</label>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="Event" id="industrymeet">
+                <label for="industrymeet">Cyber Industry Meet 22</label>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="Event" id="cybertech">
+                <label for="cybertech">National Amrita Cyber Tech</label>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="Event" id="Abyaan">
+                <label for="Abyaan">Cyber Abyaan</label>   <br>&nbsp;&nbsp;&nbsp;
+                Upload ID:
+                <input type="file" name="upload" id="fileupload"><br>           
+          Select Mode of Payment:-
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="mode" id="upi">
+                <label for="upi">UPI</label>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox"  name="mode" id="Debit Card">
+                <label for="Debit Card">Debit Card</label>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox"  name="mode" id="Credit Card">
+                <label for="Credit Card">Credit Card</label>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox"  name="mode" id="IMPS">
+                <label for="IMPS">IMPS</label>   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class='parent'>
+                  <div class='child'><br><input type="reset" value="reset"><br></div>
+                  <div class='child'><input type="submit" value="submit"></div>
+                </div>      
+        </form>
+    </body>
+</html>
+
+   
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
