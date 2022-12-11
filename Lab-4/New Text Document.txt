@@ -1,0 +1,7 @@
+Amrita Cyber Nation web site with 4 web pages
+use one external style sheety with a minimum of 10 styles.
+First page is banner page
+On information page, use hotspots (area tag) for highlighting the location.
+In each page, a minimum of 10 styles for inline and internal.
+Use Universal, Element, Class, ID, and descendant or child selectors wherever applicable.
+Include one CSS animation, one CSS transition, and one CSS overflow.
