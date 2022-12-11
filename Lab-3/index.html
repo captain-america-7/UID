@@ -7,9 +7,35 @@
   }
   </style>
  </head>
- <body>
-  <h2 style="color:blue;">Please submit the form below to complete your registration</h2>
-   <form>   
+ <body style="background-image: linear-gradient(to right, #5cfc7f, #e8fb3f);">
+  <h2 style="color:rgb(64, 0, 255);">Please submit the form below to complete your registration</h2>
+   <form> 
+    Username:
+    <input type:"text" name="username">
+    Password:
+    <input type:"text" name="pass"><br>
+    Select Course:
+    <br>
+    <input type="radio" name="course" id="cse">
+    <label for="cse">CSE</label>
+    <br>
+    <input type="radio" name:"course" id="CYS">
+    <label for="cys">CYBER</label>
+    <br>
+    <input type="radio" name:"course" id="CYS">
+    <label for="cys">AI</label>
+    <br>
+    <input type="radio" name:"course" id="CYS">
+    <label for="cys">Mech</label>
+    <br>
+    <input type="radio" name:"course" id="CYS">
+    <label for="cys">ECE</label>
+    <br>
+    upload file:
+    <input type="file" name="upload" id="fileupload">
+    <br>
+    <textarea rows:"5" Cols:"50" name:"text" id="text"></textarea>  
+    <br>
     <select name:"Country" id="Country">
       <option Value:"none" selected disabled hidden>Select a Country</option>
       <option Value:"Ind">INDIA</option>
@@ -18,11 +44,9 @@
       <option Value:"Can">Canada</option>
     </select>
     <br>
-    <input type="submit" value="submit">
-    <br>
-    <input type="reset" value="reset"><br>
     Telephone:
     <input type="text" pattern="[0-9]{10}" required />
+    <br>
     <input type="submit" value="submit">    
    </form>
    
