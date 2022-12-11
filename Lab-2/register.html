@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Science Fair</title>
+        <link rel="stylesheet" href="styles.css">           
+    </head>
+    <body>
+          <nav class="navbar">
+            <a href="#" class="nav-logo">Madras Science Fair</a>
+            <ul class="nav-links">
+              <li><a href="homepage.html">Home</a></li>
+              
+              
+              <li><a href="contact.html">Contact us</a></li>
+              <li><a href="signin.html"><i class="fa-solid fa-user sign-in-icon"></i> Sign In</a></li>
+              <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            </ul>
+          </nav>
+          <h2 style="color:blue;">Please submit the form below to complete your registration</h2>
+   <form>   
+    
+    <br>
+    <p>->Type your phone number</p>
+    <br>
+    Telephone:
+    <input type="text" pattern="[0-9]{10}" required />
+    <input type="submit" value="submit"> 
+    <select name:"Country" id="Country">
+      <option Value:"none" selected disabled hidden>Select a Country</option>
+      <option Value:"Ind">INDIA</option>
+      <option Value:"Usa">USA</option>
+      <option Value:"Swiz">Swizterland</option>
+      <option Value:"Can">Canada</option>
+    </select>   
+   </form>
+   <form>
+    Select Event:
+    <br>
+    <input type="radio" name="course" id="cse">
+    <label for="Project">Project</label>
+    <br>
+    <input type="radio" name:"course" id="CYS">
+    <label for="Paper">Paper Submisiion</label>
+    <br>
+    <input type="radio" name:"course" id="CYS">
+    <label for="Jpurnal">Journal</label><br>
+    <form>
+      Upload Your Payment Receipt:
+      <input type="file" name="upload" id="fileupload">     
+     </form>
+     <p>Give your additional comments below</p>
+     <form>
+      <textarea rows:"5" Cols:"50" name:"text" id="text"></textarea>
+      </form>
+    <input type="submit" value="submit">
+    <br>
+    <input type="reset" value="reset">
+    
+    
+   </form>
+          
+          </ul>              
+        </body>
+</html>
+
+   
+    
+    
