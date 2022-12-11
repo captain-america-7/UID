@@ -2,9 +2,7 @@
     <head>
 	<title>Web App for Simple Interest Calculation</title>
   <link rel="stylesheet" href="styles.css">
-        <script>
-            
-        </script>
+  <script src="script.js"></script>
     </head>
 
     <body>
@@ -18,5 +16,34 @@
           </div>
       </div>
         <h1>Mouse Events</h1>
+        <div onmousedown="WhichButton(event)" class="a">Click this text with one of your mouse buttons to return a number.
+          <p>
+          0 = The left mouse button<br>
+          1 = The middle mouse button<br>
+          2 = The right mouse button
+          </p>
+        </div>
+        <div>
+          <h2 onclick="showCoords(event)">Click this heading to get the x (horizontal) and y (vertical) coordinates of the mouse pointer when it was clicked.</h2>
+
+          <p><strong>Tip:</strong> Try to click different places in the heading.</p>
+
+          <p id="demo1"></p>
+
+        </div>
+          
+<h2>JavaScript Regular Expressions</h2>
+
+<p>A global search for digits:</p>
+
+<p id="demo2"></p>
+
+<script>
+let text = "Give 100%!"; 
+let pattern = /\d/g;
+let result = text.match(pattern);
+
+document.getElementById("demo2").innerHTML = result;
+</script>
     </body>
 </html>
